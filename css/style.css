@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div-form{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    
+    font-family: sans-serif;
+    font-size: 20px;
+
+    display: flex;
+    width: 600px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+.btn-enviar{
+    background-color: #3d64ef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+    cursor: pointer;
+}
+
+
+.div-resp {
+    background-color: #3d64ef;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+
+}
+
+.ocultar{
+    display: none;
+}
+
+
+
